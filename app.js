@@ -23,6 +23,7 @@ name : 'Seattle',
   maxNumCustomerOne : 65,
   avNumCookiePurOne : 6.3,
   dailySales :[],
+  dailyTotalSales : [],
   calculateCookieSales : function(){
     // this function needs to generate simulated cookie sales each hour
     
@@ -33,9 +34,17 @@ name : 'Seattle',
       var hourlySales = Math.round(randomNumber * this.avNumCookiePurOne);
       this.dailySales.push(hourlySales);
     };
+
+    // calculateDailySales: function(){
+    //   var dailyTotalCookieSales = 0;
+    //   for(var i = 0; i < this.dailySales.length; i++){
+    //     dailyTotalCookieSales = dailyTotalCookieSales + this.dailySales[i];
+    //   }
+    //   return dailyTotalCookieSales;
+    // }
     
   },
-  render : function(){
+    render : function(){
     var seattleCookieUnList = document.getElementById('seattle-ul');
     var newSeattleListItem = document.createElement('li');
     newSeattleListItem.textContent = seattleCookies.name;
@@ -55,6 +64,7 @@ name : 'Seattle',
 }
 
 seattleCookies.calculateCookieSales();
+//seattleCookie.calculateDailySales();
 seattleCookies.render();
 
 // //=======Tokyo======
@@ -81,6 +91,14 @@ var tokyoCookies = {
         var hourlySales = Math.round(randomNumber * this.avNumCookiePurTwo);
         this.dailySales.push(hourlySales);
       };
+
+        // calculateDailySales: function(){
+    //   var dailyTotalCookieSales = 0;
+    //   for(var i = 0; i < this.dailySales.length; i++){
+    //     dailyTotalCookieSales = dailyTotalCookieSales + this.dailySales[i];
+    //   }
+    //   return dailyTotalSales;
+    // }
       
     },
     render : function(){
@@ -103,6 +121,7 @@ var tokyoCookies = {
   }
   
   tokyoCookies.calculateCookieSalesTwo();
+  //tokyoCookie.calculateDailySales();
   tokyoCookies.render();
 //======Dubai========
 /*
@@ -128,6 +147,14 @@ var dubaiCookies = {
         var hourlySales = Math.round(randomNumber * this.avNumCookiePurThree);
         this.dailySales.push(hourlySales);
       };
+
+          // calculateDailySales: function(){
+    //   var dailyTotalCookieSales = 0;
+    //   for(var i = 0; i < this.dailySales.length; i++){
+    //     dailyTotalCookieSales = dailyTotalCookieSales + this.dailySales[i];
+    //   }
+    //   return dailyTotalSales;
+    // }
       
     },
     render : function(){
@@ -150,6 +177,7 @@ var dubaiCookies = {
   }
   
   dubaiCookies.calculateCookieSalesThree();
+  //dubaiCookie.calculateDailySales();
   dubaiCookies.render();
 
 //======Paris========
@@ -177,6 +205,14 @@ var parisCookies = {
         var hourlySales = Math.round(randomNumber * this.avNumCookiePurFour);
         this.dailySales.push(hourlySales);
       };
+
+          // calculateDailySales: function(){
+    //   var dailyTotalCookieSales = 0;
+    //   for(var i = 0; i < this.dailySales.length; i++){
+    //     dailyTotalCookieSales = dailyTotalCookieSales + this.dailySales[i];
+    //   }
+    //   return dailyTotalSales;
+    // }
       
     },
     render : function(){
@@ -199,6 +235,7 @@ var parisCookies = {
   }
   
   parisCookies.calculateCookieSalesFour();
+  //parisCookie.calculateDailySales();
   parisCookies.render();
 
 //=======Lima=========
@@ -219,6 +256,14 @@ var limaCookies = {
         var hourlySales = Math.round(randomNumber * this.avNumCookiePurFive);
         this.dailySales.push(hourlySales);
       };
+
+          // calculateDailySales: function(){
+    //   var dailyTotalCookieSales = 0;
+    //   for(var i = 0; i < this.dailySales.length; i++){
+    //     dailyTotalCookieSales = dailyTotalCookieSales + this.dailySales[i];
+    //   }
+    //   return dailyTotalSales;
+    // }
       
     },
     render : function(){
@@ -241,4 +286,5 @@ var limaCookies = {
   }
   
   limaCookies.calculateCookieSalesFive();
+  //limaCookie.calculateDailySales();
   limaCookies.render();
