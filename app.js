@@ -40,7 +40,7 @@ name : 'Seattle',
     //   for(var i = 0; i < this.dailySales.length; i++){
     //     dailyTotalCookieSales = dailyTotalCookieSales + this.dailySales[i];
     //   }
-    //   return dailyTotalCookieSales;
+    //   return this.dailyTotalCookieSales.push(dailyTotalSales);
     // }
     
   },
