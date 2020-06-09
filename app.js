@@ -7,13 +7,6 @@ ul
   li minimum customers
   li maximum customers
   li average cookie sale
-
-  <ul>
-    <li>Seattle</li>
-    <li>Minumum Number of Customers</li>
-    <li>Maximum Number of Customers</li>
-    <li>Average Number of Cookies Purchased per Customer</li>
-    </ul>
     */
  
    var storeHours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
@@ -63,23 +56,6 @@ name : 'Seattle',
 
 seattleCookies.calculateCookieSales();
 seattleCookies.render();
-
-//=====average cookies per hour===========
-//   function(){
-//     var newAvNumCookiePuOne = document.createElement('li');
-// //     newAvNumCookiePuOne = 'am: ' + this.AvNumCookiePurOne[0] + 'cookie';
-// //     newSeattleListItem.appendChild(newAvNumCookiePuOne);
-
-// //     var cookiesInAdayOne =[];
-
-// //     for(var i = 0; i < this.newAvNumCookiePuOne.length; i++){
-
-// //     newAvNumCookiePuOne = document.createElement('li');
-// //     newAvNumCookiePuOne.textContent = cookiesInAdayOne[i] + ' : ' + this.newAvNumCookiePuOne[i] + ' salmon cookies';
-// //     newAvNumCookiePuOne.appendChild(newAvNumCookiePuOne);
-// //     }
-// //   } 
-// // };
 
 // //=======Tokyo======
 // /*
