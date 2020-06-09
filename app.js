@@ -1,29 +1,35 @@
 'use strict';
 
-//=====Seattle=====
-/*
-ul 
-  li name: Seattle
-  li minimum customers
-  li maximum customers
-  li average cookie sale
-    */
- 
-   var storeHours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
+//======Seattle=========
+
+var storeHours = ['6am', '7am', '8am', '9am', '10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm'];
+var dailyTotalCookieSales = 0;
 // got this from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
-   function getRandomInclusive(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min; //The maximum is inclusive and the minimum is inclusive 
-  }
+function getRandomInclusive(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min; 
+}
+
+
+// function calculateDailySales(){
+//   for(var i = 0; i < this.storeHours.length; i++){
+//     var totalCookieSales = Math.round(this.dailySales[i] * this.avNumCookiePurOne);
+//     this.dailyTotalCookieSales = this.dailyTotal + totalCookieSales;
+//   }
+//   this.dailyTotalCookieSales.push(hourlySales);
+// }
+// console.log('dailyTotalCookies',this.dailyTotalCookieSales);
 
 var seattleCookies = {
-name : 'Seattle',
+  name : 'Seattle',
   minNumCustomerOne : 23,
   maxNumCustomerOne : 65,
   avNumCookiePurOne : 6.3,
   dailySales :[],
   dailyTotalSales : [],
+
+  
   calculateCookieSales : function(){
     // this function needs to generate simulated cookie sales each hour
     
@@ -34,14 +40,6 @@ name : 'Seattle',
       var hourlySales = Math.round(randomNumber * this.avNumCookiePurOne);
       this.dailySales.push(hourlySales);
     };
-
-    // calculateDailySales: function(){
-    //   var dailyTotalCookieSales = 0;
-    //   for(var i = 0; i < this.dailySales.length; i++){
-    //     dailyTotalCookieSales = dailyTotalCookieSales + this.dailySales[i];
-    //   }
-    //   return this.dailyTotalCookieSales.push(dailyTotalSales);
-    // }
     
   },
     render : function(){
@@ -64,7 +62,7 @@ name : 'Seattle',
 }
 
 seattleCookies.calculateCookieSales();
-//seattleCookie.calculateDailySales();
+//seattle.calculateDailySales();
 seattleCookies.render();
 
 // //=======Tokyo======
