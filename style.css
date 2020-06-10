@@ -20,3 +20,17 @@ font-family: Georgia;
 font-size: 30px;
 color:burlywood;
 }
+ 
+img {
+  max-width: 200px;
+}
+
+table {
+  border: solid #201d64 1px;
+  border-collapse: collapse;
+  margin: 20px;
+}
+th, td {
+  border: solid #201d64 1px;
+  padding: 5px;
+}
