@@ -1,6 +1,7 @@
 header{
 font-family: 'Tangerine', serif;
 color: darkcyan;
+
 }
 
 body{
@@ -22,7 +23,7 @@ color:burlywood;
 }
  
 img {
-  max-width: 200px;
+  max-width: 400px;
 }
 
 table {
