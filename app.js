@@ -26,44 +26,40 @@ function getRandomInclusive(min, max) {
 
 // function calculateDailySales(){
 //   for(var i = 0; i < this.storeHours.length; i++){
-//     var totalCookieSales = Math.round(this.dailySales[i] * this.avNumCookiePurOne);
-//     this.dailyTotalCookieSales = this.dailyTotal + totalCookieSales;
-//   }
-//   this.dailyTotalCookieSales.push(hourlySales);
-// }
-// console.log('dailyTotalCookies',this.dailyTotalCookieSales);
-
+  // }
+  // console.log('dailyTotalCookies',this.dailyTotalCookieSales);
+  
   
   // calculateCookieSales : function(){
-  //   // this function needs to generate simulated cookie sales each hour
+    //   // this function needs to generate simulated cookie sales each hour
     
-  //   for(var i = 0; i < storeHours.length; i++){
+    //   for(var i = 0; i < storeHours.length; i++){
       
-  //     var randomNumber = getRandomInclusive(this.minNumCustomerOne, this.maxNumCustomerOne);
+      //     var randomNumber = getRandomInclusive(this.minNumCustomerOne, this.maxNumCustomerOne);
       
-  //     var hourlySales = Math.round(randomNumber * this.avNumCookiePurOne);
-  //     this.dailySales.push(hourlySales);
-  //   };
-    
-  // },
-  //   render : function(){
-  //   var seattleCookieUnList = document.getElementById('seattle-ul');
-  //   var newSeattleListItem = document.createElement('li');
-  //   newSeattleListItem.textContent = seattleCookies.name;
-  //   seattleCookieUnList.appendChild(newSeattleListItem);
-
-    
-  //  var storeHours = ['6am', '7am', '8am', '9am', '10am', '11am','12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm']; 
-
-  //   for(var i = 0; i < this.dailySales.length; i++){
-  //   var seattleCookieHour = document.createElement('li');
-  //   seattleCookieHour.textContent = storeHours[i] + ' :  ' + this.dailySales[i] + ' cookies';
-  //   seattleCookieUnList.appendChild(seattleCookieHour);
-
-  //   }
-  // }
-
-
+      //     var hourlySales = Math.round(randomNumber * this.avNumCookiePurOne);
+      //     this.dailySales.push(hourlySales);
+      //   };
+      
+      // },
+      //   render : function(){
+        //   var seattleCookieUnList = document.getElementById('seattle-ul');
+        //   var newSeattleListItem = document.createElement('li');
+        //   newSeattleListItem.textContent = seattleCookies.name;
+        //   seattleCookieUnList.appendChild(newSeattleListItem);
+        
+        
+        //  var storeHours = ['6am', '7am', '8am', '9am', '10am', '11am','12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm']; 
+        
+        //   for(var i = 0; i < this.dailySales.length; i++){
+          //   var seattleCookieHour = document.createElement('li');
+          //   seattleCookieHour.textContent = storeHours[i] + ' :  ' + this.dailySales[i] + ' cookies';
+          //   seattleCookieUnList.appendChild(seattleCookieHour);
+          
+          //   }
+          // }
+          
+          
 function SalmonCookieStore(name, minNumCustomerOne, maxNumCustomerOne, avNumCookiePurOne){
   this.name = name;
   this.minNumCustomerOne = minNumCustomerOne;
@@ -71,7 +67,19 @@ function SalmonCookieStore(name, minNumCustomerOne, maxNumCustomerOne, avNumCook
   this.avNumCookiePurOne = avNumCookiePurOne;
   this.dailySales = [];
   this.dailyTotalCookieSales = [];
-}
+   }
+          
+//SalmonCookieStore.prototype.totalCookiesSold = function(){
+  
+  //for(var i = 0; i < this.storeHours.length; i++){
+  //     var totalCookieSales = Math.round(this.dailySales[i] * this.avNumCookiePurOne);
+  //     this.dailyTotal = this.dailyTotalCookieSales + totalCookieSales;
+            
+              
+  //}
+    //   this.dailyTotalCookieSales.push(hourlySales);
+//}
+
 SalmonCookieStore.prototype.render =  function(){
   var seattleCookieUnList = document.getElementById('seattle-ul');
   var newSeattleListItem = document.createElement('li');
