@@ -73,10 +73,9 @@ function SalmonCookieStore(name, minNumCustomerOne, maxNumCustomerOne, avNumCook
   
   //for(var i = 0; i < this.storeHours.length; i++){
   //     var totalCookieSales = Math.ceil(this.calculateCookieSales[i] * this.avNumCookiePurOne);
+  //      totalCookieSales = this.dailyTotalCookieSales + totalCookieSales;
   //     this.dailyTotalCookieSales.push(storeHours);
-  //     
-            
-              
+  //                 
   //}
 //}
 
