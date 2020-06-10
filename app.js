@@ -111,7 +111,7 @@ SalmonCookieStore.prototype.calculateCookieSales = function(){
 var seattleStore = new SalmonCookieStore('Seattle Salmon', 23, 65,6.3);
 seattleStore.calculateCookieSales();
 seattleStore.render();
-
+//seattleStore.totalCookiesSold();
 var tokyoStore = new SalmonCookieStore('Tokyo Salmon', 3, 24, 1.2);
 tokyoStore.calculateCookieSales();
 tokyoStore.render();
