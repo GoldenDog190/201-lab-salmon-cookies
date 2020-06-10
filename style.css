@@ -1,29 +1,95 @@
-header{
+header {
 font-family: 'Tangerine', serif;
-color: darkcyan;
+text-align: center;
+font-weight: bold;
+font-size: 60px;
+color: rgb(155, 61, 10);
+}
+
+.chinook {
+  width: 600px;
+  height: 200px;
+}
+
+.salmon {
+  width: 650px;
+  height: 220px;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgba(182, 102, 5, 0.776);
 
 }
 
-body{
-font-family: sans-serif;
-background-color: rgba(182, 102, 5, 0.776);
+h2 {
+  font-family: 'Tangerine', serif;
+  font-size: 70px;
+  text-shadow: darkgray;
+  color:rgb(40, 88, 71);
 }
 
-h2{
-font-family: 'Tangerine', serif;
-font-size: 50px;
-text-shadow: darkgray;
-color:rgb(40, 88, 71);
+.cutter{
+  width: 200px;
+  height: 200px;
 }
 
-p{
+.cookie {
+  width: 315px;
+  height: 200;
+}
+
+p {
 font-family: Georgia;
-font-size: 30px;
-color:burlywood;
+font-size: 28px;
+color:rgb(92, 55, 5);
 }
- 
-img {
-  max-width: 400px;
+
+.family {
+  width: 500px;
+  height: 250px;
+}
+
+.tshirttext {
+  font-family: Georgia;
+font-size: 28px;
+color:rgb(92, 55, 5);
+}
+
+.tshirt {
+  width: 200px;
+  height: 200px;
+}
+
+.locations {
+  font-family: Georgia;
+font-size: 28px;
+color:rgb(92, 55, 5);
+}
+
+.contacth2 {
+  font-family: 'Tangerine', serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: darkgray;
+  color: rgb(216, 83, 12);
+}
+
+.pcontact {
+  font-family: 'Tangerine', serif;
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: darkgray;
+  color: rgb(216, 83, 12);
+}
+
+.bottom {
+  font-family: 'Tangerine', serif;
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: darkgray;
+  color: rgb(216, 83, 12);
 }
 
 table {
