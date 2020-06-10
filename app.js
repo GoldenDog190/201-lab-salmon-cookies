@@ -140,18 +140,6 @@ table.appendChild(tableRow);
 
 }
 
-function renderStoreHours(){
-  var table = document.getElementById('HourHead');
-
-  var tableRow = document.createElement('tr');
-
-  var tableCell = document.createElement('th')
-
-  tableCell.textContent = '6am', '7am', '8am', '9am', '10am', '11am','12pm', '1pm', '2pm', '3pm', '4pm', '5pm', '6pm', '7pm';
-
-  table.appendChild(tableRow);
-}
-
 SalmonCookieStore.prototype.renderSalmonCookieStore = renderSalmonCookieStore;
 seattleStore.renderSalmonCookieStore();
 
@@ -162,6 +150,3 @@ dubaiStore.renderSalmonCookieStore();
 parisStore.renderSalmonCookieStore();
 
 limaStore.renderSalmonCookieStore();
-
-SalmonCookieStore.prototype.renderStoreHours = renderStoreHours;
-seattleStore.renderStoreHours();
