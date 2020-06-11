@@ -1,36 +1,143 @@
-header{
+header {
 font-family: 'Tangerine', serif;
-color: darkcyan;
+text-align: center;
+font-weight: bold;
+font-size: 65px;
+color: rgb(216, 66, 12);
 }
 
-body{
-font-family: sans-serif;
-background-color: rgba(182, 102, 5, 0.776);
+.title {
+  border-style:double;
+  border-width: 25px;
 }
 
-h2{
-font-family: 'Tangerine', serif;
-font-size: 50px;
-text-shadow: darkgray;
-color:rgb(40, 88, 71);
+.chinook {
+  float: none;
+  width: 600px;
+  height: 200px;
 }
 
-p{
+.salmon {
+  float: none;
+  width: 650px;
+  height: 220px;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgba(182, 102, 5, 0.776);
+
+}
+
+h2 {
+  font-family: 'Tangerine', serif;
+  font-size: 70px;
+  text-shadow: darkgray;
+  color:rgb(40, 88, 71);
+  border-style: double;
+  border-width: 20px;
+}
+
+.cutter{
+  float: none;
+  width: 200px;
+  height: 200px;
+}
+
+.cookie {
+  float: none;
+  width: 315px;
+  height: 200;
+}
+
+p {
 font-family: Georgia;
-font-size: 30px;
-color:burlywood;
+font-size: 28px;
+color:rgb(92, 55, 5);
+border-style: solid;
 }
- 
-img {
-  max-width: 200px;
+
+.family {
+  float: none;
+  width: 500px;
+  height: 250px;
+}
+
+.tshirttext {
+ display: inline-block;
+ font-family: Georgia;
+ font-size: 28px;
+ color:rgb(92, 55, 5);
+ border-style: solid;
+}
+
+.tshirt {
+  float: none;
+  width: 200px;
+  height: 200px;
+}
+
+.locations {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 35px;
+  color:rgb(92, 55, 5);
+  border-style: solid;
+  
+}
+
+.contacth2 {
+  font-family: 'Tangerine', serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-shadow: darkgray;
+  color: rgb(216, 83, 12);
+}
+
+.pcontact {
+  font-family: 'Tangerine', serif;
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: darkgray;
+  color: rgb(216, 83, 12);
+}
+
+.stuffedfish {
+  float: none;
+  width: 300px;
+  height: 300px;
+}
+
+.bottom {
+  font-family: 'Tangerine', serif;
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: darkgray;
+  color: rgb(216, 83, 12);
+}
+
+.saleh1{
+font-family: 'Tangerine', serif;
+text-align: center;
+font-weight: bold;
+font-size: 30px;
+color: rgb(40, 88, 71);
+border-style: double;
+border-width: 10px;
 }
 
 table {
-  border: solid #201d64 1px;
+  color: rgb(45, 79, 67);
+  background-color: rgb(232, 116, 54);
+  font-family: sans-serif;
+  font-weight: bold;
+  border: solid #ce4e31 20px;
   border-collapse: collapse;
-  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 th, td {
-  border: solid #201d64 1px;
+  border: solid #ce4e31 5px;
   padding: 5px;
 }
