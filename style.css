@@ -2,16 +2,18 @@ header {
 font-family: 'Tangerine', serif;
 text-align: center;
 font-weight: bold;
-font-size: 60px;
-color: rgb(155, 61, 10);
+font-size: 65px;
+color: rgb(216, 66, 12);
 }
 
 .chinook {
+  float: none;
   width: 600px;
   height: 200px;
 }
 
 .salmon {
+  float: none;
   width: 650px;
   height: 220px;
 }
@@ -31,11 +33,13 @@ h2 {
 }
 
 .cutter{
+  float: none;
   width: 200px;
   height: 200px;
 }
 
 .cookie {
+  float: none;
   width: 315px;
   height: 200;
 }
@@ -47,25 +51,29 @@ color:rgb(92, 55, 5);
 }
 
 .family {
+  float: none;
   width: 500px;
   height: 250px;
 }
 
 .tshirttext {
-  font-family: Georgia;
-font-size: 28px;
-color:rgb(92, 55, 5);
+ display: inline-block;
+ font-family: Georgia;
+ font-size: 28px;
+ color:rgb(92, 55, 5);
 }
 
 .tshirt {
+  float: none;
   width: 200px;
   height: 200px;
 }
 
 .locations {
+  display: inline-block;
   font-family: Georgia;
-font-size: 28px;
-color:rgb(92, 55, 5);
+  font-size: 28px;
+  color:rgb(92, 55, 5);
 }
 
 .contacth2 {
@@ -82,6 +90,12 @@ color:rgb(92, 55, 5);
   font-size: 70px;
   text-shadow: darkgray;
   color: rgb(216, 83, 12);
+}
+
+.stuffedfish {
+  float: none;
+  width: 300px;
+  height: 300px;
 }
 
 .bottom {
@@ -101,12 +115,16 @@ color: rgb(40, 88, 71);
 }
 
 table {
-  border: solid #54190c 20px;
+  color: rgb(45, 79, 67);
+  background-color: rgb(232, 116, 54);
+  font-family: sans-serif;
+  font-weight: bold;
+  border: solid #ce4e31 20px;
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
 }
 th, td {
-  border: solid #a5550f 5px;
+  border: solid #ce4e31 5px;
   padding: 5px;
 }
