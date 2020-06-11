@@ -111,6 +111,26 @@ function SalmonCookieStore(name, minNumCustomerOne, maxNumCustomerOne, avNumCook
     table.appendChild(tableRow);
     
   }
+
+  var newWorldStore = document.getElementById('newStore');
+
+  newWorldStore.addEventListener('sumbit', addNewStore);
+
+  function addNewStore(eventStore){ 
+    eventStore.preventDefault();
+
+    var name = eventStore.target.nameStore.value;
+
+    var minNumCustomerOne = eventStore.target.minCustomer.value;
+
+    var maxNumCustomerOne = eventStore.target.maxCustomer.value;
+
+    var avNumCookiePurOne = eventStore.target.avCookiePur.value;
+    console.log(name, minNumCustomerOne, maxNumCustomerOne, avNumCookiePurOne);
+  
+   var newCookieStore = new Store(name, minNumCustomerOne, maxNumCustomerOne, avNumCookiePurOne);
+   newCookieStore.renderSalmonCookieStore();
+  }
   
   SalmonCookieStore.prototype.renderSalmonCookieStore = renderSalmonCookieStore;
   seattleStore.renderSalmonCookieStore();
