@@ -9,9 +9,36 @@
   <body>
     <header class="saleh1">
     <h1>Salmon Cookie Stores Around the World Data</h1>
+    <nav>
+      <ul>
+        <a href="index.html">Home Page</a>
+      </ul>
+    </nav>
   </header>
 
   <main>
+
+    <form id="newStore">
+     <fieldset>
+       <legend>Open A New Store</legend>
+
+        <label for="nameStore"></label>
+        <input type="text" name="nameStore">
+
+        <label for="minCustomer"></label>
+        <input type="number" name="minCustomer">
+
+        <label for="maxCustomer"></label>
+        <input type="number" name="maxCustomer">
+
+        <label for="avCookiePur"></label>
+        <input type="number" name="avCookiePur">
+
+        <button value="findsum" type="submit" onclick="clearcontent('clear')">Add New Store!</button>
+
+     </fieldset>
+    </form>  
+
     <table>
     <thead>
       <tr>
@@ -30,10 +57,11 @@
         <th>5PM</th>
         <th>6PM</th>
         <th>7PM</th>
+        <th>Daily Location Total</th>
       </tr>
     </thead>
     <tbody id="CookieTable"></tbody>
-    <tfoot id="CookieTable"></tfoot>
+    <tfoot>Totals</tfoot>
   </table>
 
    <nav>
