@@ -151,7 +151,7 @@ function SalmonCookieStore(name, minNumCustomerOne, maxNumCustomerOne, avNumCook
   
   function clearcontent(clear){
     //https://www.geeksforgeeks.org/how-to-clear-the-content-of-a-div-using-javascript/
-    document.getElementById(clear).innerHTML = "";
+    document.getElementById(clear).innerHTML ='';
   }
  
   //==========================

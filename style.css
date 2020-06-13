@@ -3,7 +3,8 @@ font-family: 'Tangerine', serif;
 text-align: center;
 font-weight: bold;
 font-size: 65px;
-color: rgb(216, 66, 12);
+color: rgb(168, 17, 3);
+background-color: rgb(247, 157, 147);
 }
 
 .title {
@@ -26,7 +27,7 @@ color: rgb(216, 66, 12);
 body {
   font-family: sans-serif;
   text-align: center;
-  background-color: rgba(182, 102, 5, 0.776);
+  background-color: rgba(223, 121, 96, 0.87);
 
 }
 
@@ -37,6 +38,7 @@ h2 {
   color:rgb(40, 88, 71);
   border-style: double;
   border-width: 20px;
+  background-color: rgb(247, 157, 147);
 }
 
 .cutter{
@@ -56,6 +58,7 @@ font-family: Georgia;
 font-size: 28px;
 color:rgb(92, 55, 5);
 border-style: solid;
+background-color: rgb(247, 157, 147);
 }
 
 .family {
@@ -70,6 +73,7 @@ border-style: solid;
  font-size: 28px;
  color:rgb(92, 55, 5);
  border-style: solid;
+ background-color: rgb(247, 157, 147);
 }
 
 .tshirt {
@@ -84,7 +88,8 @@ border-style: solid;
   font-size: 35px;
   color:rgb(92, 55, 5);
   border-style: solid;
-  
+  text-align: left;
+  background-color: rgb(247, 157, 147);
 }
 
 .contacth2 {
@@ -101,6 +106,7 @@ border-style: solid;
   font-size: 70px;
   text-shadow: darkgray;
   color: rgb(216, 83, 12);
+  background-color: rgb(247, 157, 147);
 }
 
 .stuffedfish {
@@ -115,10 +121,11 @@ border-style: solid;
   font-size: 70px;
   text-shadow: darkgray;
   color: rgb(216, 83, 12);
+  background-color: rgb(247, 157, 147);
 }
 
 .saleh1{
-font-family: 'Tangerine', serif;
+font-family: Georgia;
 text-align: center;
 font-weight: bold;
 font-size: 30px;
@@ -127,17 +134,40 @@ border-style: double;
 border-width: 10px;
 }
 
+.locationQ {
+  color:  rgb(168, 17, 3);
+  background-color: rgb(250, 119, 104); 
+}
+
 table {
   color: rgb(45, 79, 67);
-  background-color: rgb(232, 116, 54);
+  background-color: rgb(250, 119, 104);
   font-family: sans-serif;
   font-weight: bold;
-  border: solid #ce4e31 20px;
+  border: solid  rgb(168, 17, 3) 20px;
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
 }
 th, td {
-  border: solid #ce4e31 5px;
+  border: solid rgb(244, 48, 26) 5px;
   padding: 5px;
+}
+
+form {
+  color: rgb(45, 79, 67);
+  background-color: rgb(250, 119, 104);
+  border: solid  rgb(168, 17, 3) 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.newStore {
+  color:rgb(247, 157, 147);
+  background-color:  rgb(168, 17, 3);
 }
